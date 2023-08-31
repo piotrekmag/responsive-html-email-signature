@@ -1,0 +1,84 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - gulp-less > less > request > extend:
+        patched: '2023-08-31T16:47:06.829Z'
+        id: 'npm:extend:20180424'
+        path: gulp-less > less > request > extend
+    - gulp-minify-inline > cheerio > jsdom > request > extend:
+        patched: '2023-08-31T16:47:06.829Z'
+        id: 'npm:extend:20180424'
+        path: gulp-minify-inline > cheerio > jsdom > request > extend
+  'npm:hoek:20180212':
+    - gulp-less > less > request > hawk > hoek:
+        patched: '2023-08-31T16:47:06.829Z'
+        id: 'npm:hoek:20180212'
+        path: gulp-less > less > request > hawk > hoek
+    - gulp-less > less > request > hawk > boom > hoek:
+        patched: '2023-08-31T16:47:06.829Z'
+        id: 'npm:hoek:20180212'
+        path: gulp-less > less > request > hawk > boom > hoek
+    - gulp-less > less > request > hawk > sntp > hoek:
+        patched: '2023-08-31T16:47:06.829Z'
+        id: 'npm:hoek:20180212'
+        path: gulp-less > less > request > hawk > sntp > hoek
+    - gulp-minify-inline > cheerio > jsdom > request > hawk > hoek:
+        patched: '2023-08-31T16:47:06.829Z'
+        id: 'npm:hoek:20180212'
+        path: gulp-minify-inline > cheerio > jsdom > request > hawk > hoek
+    - gulp-minify-inline > cheerio > jsdom > request > hawk > boom > hoek:
+        patched: '2023-08-31T16:47:06.829Z'
+        id: 'npm:hoek:20180212'
+        path: gulp-minify-inline > cheerio > jsdom > request > hawk > boom > hoek
+    - gulp-minify-inline > cheerio > jsdom > request > hawk > sntp > hoek:
+        patched: '2023-08-31T16:47:06.829Z'
+        id: 'npm:hoek:20180212'
+        path: gulp-minify-inline > cheerio > jsdom > request > hawk > sntp > hoek
+  'npm:mime:20170907':
+    - gulp-less > less > mime:
+        patched: '2023-08-31T16:47:06.829Z'
+        id: 'npm:mime:20170907'
+        path: gulp-less > less > mime
+  'npm:qs:20170213':
+    - gulp-less > less > request > qs:
+        patched: '2023-08-31T16:47:06.829Z'
+        id: 'npm:qs:20170213'
+        path: gulp-less > less > request > qs
+    - gulp-minify-inline > cheerio > jsdom > request > qs:
+        patched: '2023-08-31T16:47:06.829Z'
+        id: 'npm:qs:20170213'
+        path: gulp-minify-inline > cheerio > jsdom > request > qs
+  'npm:stringstream:20180511':
+    - gulp-less > less > request > stringstream:
+        patched: '2023-08-31T16:47:06.829Z'
+        id: 'npm:stringstream:20180511'
+        path: gulp-less > less > request > stringstream
+    - gulp-minify-inline > cheerio > jsdom > request > stringstream:
+        patched: '2023-08-31T16:47:06.829Z'
+        id: 'npm:stringstream:20180511'
+        path: gulp-minify-inline > cheerio > jsdom > request > stringstream
+  'npm:tough-cookie:20170905':
+    - gulp-less > less > request > tough-cookie:
+        patched: '2023-08-31T16:47:06.829Z'
+        id: 'npm:tough-cookie:20170905'
+        path: gulp-less > less > request > tough-cookie
+    - gulp-minify-inline > cheerio > jsdom > tough-cookie:
+        patched: '2023-08-31T16:47:06.829Z'
+        id: 'npm:tough-cookie:20170905'
+        path: gulp-minify-inline > cheerio > jsdom > tough-cookie
+    - gulp-minify-inline > cheerio > jsdom > request > tough-cookie:
+        patched: '2023-08-31T16:47:06.829Z'
+        id: 'npm:tough-cookie:20170905'
+        path: gulp-minify-inline > cheerio > jsdom > request > tough-cookie
+  'npm:tunnel-agent:20170305':
+    - gulp-less > less > request > tunnel-agent:
+        patched: '2023-08-31T16:47:06.829Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: gulp-less > less > request > tunnel-agent
+    - gulp-minify-inline > cheerio > jsdom > request > tunnel-agent:
+        patched: '2023-08-31T16:47:06.829Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: gulp-minify-inline > cheerio > jsdom > request > tunnel-agent
